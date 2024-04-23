@@ -1,7 +1,9 @@
-## Intro 
+## Introduction 
 
 This repo is about building a data infrastructure to show bike availability through Paris. 
 It uses opendata as a data source. 
+
+## Data infrastructure 
 The data infrastructure is described below: 
   
 ![data_infrastructure](https://github.com/noujoudahbali/project_lime/assets/62560121/cbd3db67-dcd8-4574-bdfe-c7ea76ac5fcc)
