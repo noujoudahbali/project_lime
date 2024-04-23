@@ -2,11 +2,9 @@
 
 This repo is about building a data infrastructure to show bike availability through Paris. 
 It uses opendata as a data source. 
-This is done through a process of : 
-- fetching data from open data
-- transforming the data
-- saving data to s3
-- live updates of the map plot using dash plotly. 
+The data infrastructure is described below: 
+  
+![data_infrastructure](https://github.com/noujoudahbali/project_lime/assets/62560121/cbd3db67-dcd8-4574-bdfe-c7ea76ac5fcc)
 
 ## Airflow setup : 
 - add lime-projelime as S3BucketName in Admin -> Variables 
