@@ -11,7 +11,7 @@ This is done through a process of :
 ## Airflow setup : 
 - add lime-projelime as S3BucketName in Admin -> Variables 
 - add AWS credentials in Admin -> Connections ( Login and password ad and secret key)
-- make sure data, logs, plugins folders are created for aiflow tow ork properly
+- make sure data, logs, plugins folders are created for aiflow to work properly (at the repo root level)
 
 Launch Airflow : docker-compose up 
 
