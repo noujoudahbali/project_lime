@@ -3,6 +3,12 @@
 This repo is about building a data infrastructure to show bike availability through Paris. 
 It uses opendata as a data source. 
 
+## Objectives 
+
+Retrieve real-time data from Velib stations
+Create an infrastructure that ingest it in real-time
+Provide a visualisation tool to see in a map where Lime bikes are. 
+
 ## Data infrastructure 
 The data infrastructure is described below: 
   
