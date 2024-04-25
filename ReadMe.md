@@ -15,8 +15,10 @@ The data infrastructure is described below:
 ![data_infrastructure](https://github.com/noujoudahbali/project_lime/assets/62560121/cbd3db67-dcd8-4574-bdfe-c7ea76ac5fcc)
 
 In order to make the app have live updates, it is necessary to query data real time (or almost, here the interval chosen is every hour but can be updated) and follow a sequence the extract / load / transform process. 
+
 This is why using dags in Airflow seems appropriate as it leverages the ELT process easily. 
 For storage, a data lake was chosen (S3 bucket to be specific) as we're handling files. We can also imagine to use a data warehouse instead and store directly the files content, but it could become tedious to maintain if the api returned fields change in the future. 
+
 As for the dashboard, the app uses dash / plotly and have the plot be updated on line ( same interval as the dag execution). The app is deployed in a docker container based on a custon image that uses python as a base image. 
 
 
